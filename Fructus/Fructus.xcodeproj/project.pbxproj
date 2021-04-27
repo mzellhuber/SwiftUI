@@ -23,6 +23,7 @@
 		2F71FFB72638995A009EC506 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71FFB626389959009EC506 /* SettingsView.swift */; };
 		2F71FFBA26389D7F009EC506 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71FFB926389D7F009EC506 /* SettingsLabelView.swift */; };
 		2F71FFBE2638A22E009EC506 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71FFBD2638A22E009EC506 /* SettingsRowView.swift */; };
+		2F71FFC22638AF73009EC506 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71FFC12638AF73009EC506 /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2F71FFB626389959009EC506 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2F71FFB926389D7F009EC506 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		2F71FFBD2638A22E009EC506 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		2F71FFC12638AF73009EC506 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				2F71FFB326389717009EC506 /* SourceLinkView.swift */,
 				2F71FFB926389D7F009EC506 /* SettingsLabelView.swift */,
 				2F71FFBD2638A22E009EC506 /* SettingsRowView.swift */,
+				2F71FFC12638AF73009EC506 /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				2F4157B32637823E0011C083 /* StartButtonView.swift in Sources */,
 				2F71FFAE26388D77009EC506 /* FruitDetailView.swift in Sources */,
 				2F71FFBE2638A22E009EC506 /* SettingsRowView.swift in Sources */,
+				2F71FFC22638AF73009EC506 /* FruitNutrientsView.swift in Sources */,
 				2F71FFBA26389D7F009EC506 /* SettingsLabelView.swift in Sources */,
 				2F41579E263770D50011C083 /* ContentView.swift in Sources */,
 				2F71FFB12638910F009EC506 /* FruitHeaderView.swift in Sources */,
