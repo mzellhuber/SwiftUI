@@ -13,7 +13,9 @@ struct OnboardingView: View {
     // MARK: - Body
     var body: some View {
         TabView {
-            FruitCardView()
+            ForEach(0..<5) { item in
+                FruitCardView()
+            }
         }
         .tabViewStyle(PageTabViewStyle())
         .padding(.vertical, 20)
