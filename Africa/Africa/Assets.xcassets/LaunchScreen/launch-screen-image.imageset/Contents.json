@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "launch-screen-image.png",
+      "idiom" : "universal",
+      "locale" : "FreeCourseSite.com",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "launch-screen-image@2x.png",
+      "idiom" : "universal",
+      "locale" : "FreeCourseSite.com",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "launch-screen-image@3x.png",
+      "idiom" : "universal",
+      "locale" : "FreeCourseSite.com",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
