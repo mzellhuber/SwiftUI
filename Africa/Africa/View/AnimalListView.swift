@@ -9,11 +9,12 @@ import SwiftUI
 
 struct AnimalListView: View {
     // MARK: - Properties
-
+    let animal: Animal
+    
     // MARK: - Body
     var body: some View {
         HStack(alignment: .center, spacing: 16) {
-            Image("lion")
+            Image(animal.image)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 90, height: 90)
@@ -22,12 +23,12 @@ struct AnimalListView: View {
                 )
             
             VStack(alignment: .leading, spacing: 8) {
-                Text("Lion")
+                Text(animal.name)
                     .font(.title2)
                     .fontWeight(.heavy)
                     .foregroundColor(.accentColor)
                 
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+                Text(animal.headline)
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
@@ -38,7 +39,8 @@ struct AnimalListView: View {
 }
 
 struct AnimalListView_Previews: PreviewProvider {
+    static let animals: [Animal] = Bundle.main.decode("animals.json")
     static var previews: some View {
-        AnimalListView()
+        AnimalListView(animal: animals[1])
     }
 }
