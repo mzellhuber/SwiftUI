@@ -60,10 +60,16 @@ struct AnimalDetailView: View {
                 Text(animal.description)
                     .multilineTextAlignment(.leading)
                     .layoutPriority(1)
+                    .padding(.horizontal)
                 
                 // Map
+                Group {
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    InsetMapView()
+                }.padding(.horizontal)
                 
                 // Link
+                
             }
             .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
         }

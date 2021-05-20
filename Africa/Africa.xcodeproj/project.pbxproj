@@ -28,6 +28,7 @@
 		2FB0BDB0263B7B3500993F93 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0BDAF263B7B3500993F93 /* CoverImageView.swift */; };
 		2FB0BDB4263B7D2A00993F93 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0BDB3263B7D2A00993F93 /* CoverImageModel.swift */; };
 		2FCD3A562656C1B0003B622E /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD3A552656C1B0003B622E /* InsetFactView.swift */; };
+		2FCD3A5D2656DA2F003B622E /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCD3A5C2656DA2F003B622E /* InsetMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		2FB0BDAF263B7B3500993F93 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		2FB0BDB3263B7D2A00993F93 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		2FCD3A552656C1B0003B622E /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		2FCD3A5C2656DA2F003B622E /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				2F9E75372641EDB600E7EC31 /* HeadingView.swift */,
 				2F9E753A2641EE8E00E7EC31 /* InsetGalleryView.swift */,
 				2FCD3A552656C1B0003B622E /* InsetFactView.swift */,
+				2FCD3A5C2656DA2F003B622E /* InsetMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				2F9E75352641EBB900E7EC31 /* AnimalDetailView.swift in Sources */,
 				2F9E75322641E7E500E7EC31 /* AnimalModel.swift in Sources */,
 				2FB0BDA6263B79C600993F93 /* MapView.swift in Sources */,
+				2FCD3A5D2656DA2F003B622E /* InsetMapView.swift in Sources */,
 				2F9A040E263A3B3C001704CE /* AfricaApp.swift in Sources */,
 				2FB0BDA3263B79B800993F93 /* VideoListView.swift in Sources */,
 				2FB0BDA9263B79D000993F93 /* GalleryView.swift in Sources */,
